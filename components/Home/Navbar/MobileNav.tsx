@@ -10,6 +10,7 @@ type Props = {
 
 const MobileNav = ({ closeNav, showNav }: Props) => {
     const navOpen = showNav ? "translate-x-0" : "translate-x-[-100%]"
+
     return (
         <div>
             {/* Overlay */}
