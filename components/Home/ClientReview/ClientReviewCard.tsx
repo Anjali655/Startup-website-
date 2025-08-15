@@ -8,12 +8,11 @@ type Props = {
     name: string,
     ratings: string
 };
-``
+
 const ClientReviewCard = ({ image, name, ratings }: Props) => {
     return (
         <div className='bg-white shadow-md p-8 sm:flex items-center space-y-4 sm:space-y-0 space-x-6 rounded-lg'>
             {/* Image */}
-
             <Image
                 src={image}
                 alt={name}
@@ -33,12 +32,11 @@ const ClientReviewCard = ({ image, name, ratings }: Props) => {
                         <BsStarHalf className='w-4 h-4 text-yellow-600' />
                     </div>
                 </div>
-                <p className='mt- 2 text-base text-gray-700 font-medium'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, repellendus?</p>
+                <p className='mt-2 text-base text-gray-700 font-medium'>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, repellendus?
+                </p>
             </div>
-
         </div>
-
-
     )
 }
 

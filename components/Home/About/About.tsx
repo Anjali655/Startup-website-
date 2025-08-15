@@ -22,8 +22,9 @@ const About = () => {
                     <div className='mt-8  border-l-2 border-gray-200'>
                         <div className='ml-6'>
                             <p className='text-gray-700 font-medium'>
-                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nam eius dolorum culpa veniam quas, vitae consequatur error soluta ad."
+                                &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nam eius dolorum culpa veniam quas, vitae consequatur error soluta ad.&quot;
                             </p>
+
                             <div className='flex items-center space-x-6 mt-6'>
                                 <Image src="/images/u1.jpg" alt="user" width={40} height={40} className='rounded-full' />
                                 <div>

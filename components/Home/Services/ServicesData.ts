@@ -1,7 +1,3 @@
-import { MdOutlineTouchApp } from 'react-icons/md';
-import { GoWorkflow } from 'react-icons/go';
-import { LuPen } from 'react-icons/lu';
-import { MdAccessAlarm } from 'react-icons/md';
 import { FaRocket, FaBriefcase, FaShoppingCart, FaChess } from 'react-icons/fa'
 import { MdOutlineDesignServices } from 'react-icons/md'
 import { IoColorPaletteOutline } from 'react-icons/io5'

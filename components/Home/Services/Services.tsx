@@ -1,6 +1,5 @@
 import BoxText from '@/components/Helper/BoxText'
 import React from 'react'
-import { FaBriefcase, FaChess, FaRocket, FaShoppingCart } from 'react-icons/fa'
 import { ServicesData } from './ServicesData'
 import ServicesGridBoxes from '@/components/Helper/ServicesGridBoxes'
 

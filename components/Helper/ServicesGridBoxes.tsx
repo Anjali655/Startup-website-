@@ -1,10 +1,9 @@
 import React from 'react'
-import { FaRocket } from 'react-icons/fa'
 
 type Props = {
     icon: React.ReactNode;
-    textContentHeader: String
-    textContentDescription: String
+    textContentHeader: string
+    textContentDescription: string
 };
 
 const ServicesGridBoxes = ({ icon, textContentHeader, textContentDescription }: Props) => {
