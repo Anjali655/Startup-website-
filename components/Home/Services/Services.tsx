@@ -20,7 +20,10 @@ const Services = () => {
 
 
                 {/* Grid */}
-                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-center gap-y-12 mt-16'>
+                <div
+                    data-aos="fade-right"
+                    data-aos-anchor-placement="top-center"
+                    className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-center gap-y-12 mt-16'>
                     {/* 1st service */}
                     {ServicesData.map((service, index) => {
                         const Icon = service.icon;
